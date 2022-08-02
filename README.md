@@ -6,12 +6,12 @@ Using threading and TCP sockets enables us to communicate Data between multiple 
 
 ## Author Information
 
-Developed by _AMIR REZA TAVAKKOLI_
-Mainly developed for principles of programming course
+Developed by _AMIR REZA TAVAKKOLI.
+Mainly developed for principles of programming course.
 
 ## REQUIREMENTS AND RUNNING
 
-Any distribution of Linux mainly UBUNTU, GCC compiler
+Any distribution of Linux mainly UBUNTU, GCC compiler.
 For compiling in the project directory:
 
 ```shell

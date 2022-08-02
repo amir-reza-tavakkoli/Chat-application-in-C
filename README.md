@@ -1,6 +1,6 @@
 # Project description
 
-Multi-user chat application using c socket programming.
+Multi-user chat application using C and socket programming.
 
 Using threading and TCP sockets enables us to communicate Data between multiple clients from multiple places, for simplicity I just used localhost as the server, and I used meta-command-line-argument to facilitate communication between clients and server, additionally, we have a backup server that can be run (**optionally**) on any of clients, it's job is preventing from disconnection, the backup server uses the same structure as the main server, the only difference is that it runs on port 8081 while the main server runs on 8080, and it has no other capabilities.
 
@@ -12,13 +12,13 @@ Mainly developed for principles of programming course.
 ## REQUIREMENTS AND RUNNING
 
 Any distribution of Linux mainly UBUNTU, GCC compiler.
-For compiling in the project directory:
+For compiling, run this in the project directory:
 
 ```shell
  gcc
 ```
 
-After that, we can run:
+After that, we can run them:
 
 ```shell
 ./server

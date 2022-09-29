@@ -2,7 +2,7 @@
 
 Multi-user chat application using C and socket programming.
 
-Using threading and TCP sockets enables us to communicate Data between multiple clients from multiple places, for simplicity I just used localhost as the server, and I used meta-command-line-argument to facilitate communication between clients and server, additionally, we have a backup server that can be run (**optionally**) on any of clients, it's job is preventing from disconnection, the backup server uses the same structure as the main server, the only difference is that it runs on port 8081 while the main server runs on 8080, and it has no other capabilities.
+Using threading and TCP sockets enable us to communicate Data between multiple clients from multiple places, for simplicity I just used localhost as the server, and I used meta-command-line-argument to facilitate communication between clients and server, additionally, we have a backup server that can be run (**optionally**) on any of clients, it's job is preventing from disconnection, the backup server uses the same structure as the main server, the only difference is that it runs on port 8081 while the main server runs on 8080, and it has no other capabilities.
 
 ## Author Information
 
